@@ -8,11 +8,11 @@ flag=0
 for i in range(0,len(s)-1):
 	for j in range(i+1,len(s)):
 		if s[i]+s[j]==k:
-			print("yes")
+			print("YES")
 			flag=1
 			break
 	if flag==1:
 		break
 if flag!=1:
-	print("no")
+	print("NO")
 		
