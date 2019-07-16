@@ -1,0 +1,5 @@
+alp=input()
+a=alp.split()
+s=input()
+c=a.count(s)
+print(c)
